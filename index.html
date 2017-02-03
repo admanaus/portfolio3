@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adrien Donat</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="topMenu">
+
+
+                <div class="menuItem">ABOUT</div>
+                <div class="menuItem">EXPOSURE</div>
+                <div class="menuItem">PORTFOLIO</div>
+                <div class="menuItem">CONTACT</div>
+                <div class="menuItem">RESUME</div>
+
+        </div>
+        <div class="text-center">
+            <h1>Adrien Donat</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="about text-center">
+            <h2>About Me</h2><br>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4>
+        </div>
+
+
+        <div id="exposure" class="text-center">
+            <h2>EXPOSURE</h2>
+            <h4>What I have worked with</h4>
+        </div>
+        <div id="exposureItems" class="text-center">
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <img src="images/logoHTML.png" height="150px" title="HTML 5 logo">
+                    <h4>HTML</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/logoCSS.jpeg" height="150px" title="CSS 3 logo">
+                    <h4>CSS</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/logoJS.png" height="150px" title="JavaScript Logo">
+                    <h4>JavaScript</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+
+            <div class="row slideanim">
+                <div class="col-sm-4">
+                    <img src="images/logoJQ.png" height="150px" title="jQuery logo">
+                    <h4>jQuery</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/logoAJS.png" height="150px" title="Angular JS logo">
+                    <h4>Angular JS</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="images/logoPython.jpeg" height="150px" title="Python logo">
+                    <h4>Python</h4>
+                    <p>Lorem ipsum dolor sit amet..</p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div id="portfolio" class="text-center">
+            <h2>Portfolio</h2><br>
+            <h4>What I've been working on</h4>
+            <div class="row text-center slideanim">
+                <div class="col-sm-4">
+                    <div>
+                        <a href="https://github.com/admanaus">
+                            <img src="images/logoGitHub.png" width="220" height="200" title="GitHub logo">
+                        </a>
+                        <p><strong>GitHub</strong></p>
+                        <p>See my latest commits</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <a href="https://www.freecodecamp.com/admanaus">
+                            <img src="images/logoFreeCodeCamp.png"  width="220" height="200" title="Free Code Camp logo">
+                        </a>
+                        <p><strong>Free Code Camp</strong></p>
+                        <p>See what I've been practicing</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div>
+                        <a href="https://www.codecademy.com/admanaus">
+                            <img src="images/logoCodeCademy.png" width="220" height="200" title="CodeCademy logo">
+                        </a>
+                        <p><strong>Code Cademy</strong></p>
+                        <p>See what I've been learning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="contact" class="">
+        <h2 class="text-center">CONTACT</h2>
+        <div class="row">
+            <div class="col-sm-5">
+                <p>Contact me and I'll get back to you.</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> Orem, UT</p>
+                <p><span class="glyphicon glyphicon-cloud"></span> github.com/admanaus</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> admanaus@gmail.com</p>
+            </div>
+            <div class="col-sm-7 slideanim">
+                <form id="myform" method="post" action="http://www.uxcobra.com/sendemail.php">
+                    <input type="hidden" name="emailto" value="admanaus@gmail.com"/>
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="subject" name="emailsubject" placeholder="Subject" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="emailheader" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="content" name="emailcontent" placeholder="Content" rows="5"></textarea><br>
+                    <div class="row">
+                        <div class="col-sm-12 form-group">
+                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="resume" class="container-fluid">
+        <h2 class="text-center">RESUME</h2>
+        <div class="text-center">
+            <a href="images/SanitizedAdrienResume.pdf"><button class="btn btn-default btn-lg" >Download as PDF</button></a>
+        </div>
+
+    </div>
+
+    </div>
+</body>
+</html>

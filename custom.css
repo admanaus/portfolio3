@@ -1,0 +1,57 @@
+.mainContainer{
+    width: 80%;
+    margin: auto;
+}
+
+.topMenu{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+
+}
+
+.menuItem{
+    padding: 10px;
+
+}
+
+.banner{
+
+    height: 200px;
+    background-color: #bfbfbf;
+
+
+    flex-direction: column;
+}
+
+.banner h1{
+    color: white;
+
+}
+
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#exposure h4{
+    padding-bottom: 20px;
+
+
+}
+#exposure div{
+    align-items: center;
+
+}
+#portfolio{
+
+}
+
+.contact{
+
+}
+
+.resume{
+
+}
