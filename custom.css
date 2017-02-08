@@ -1,34 +1,114 @@
+body, html {
+    margin:0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+h1 {
+    color: #fd5f00;
+    padding-top: 20px;
+
+}
+
+h2{
+    padding-top: 20px;
+    color: #fd5f00;
+}
+
+.whiteBar{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.banner p {
+    color: black;
+}
+
+
 .mainContainer{
-    width: 80%;
-    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.mainBody{
+
+}
+
+
+.rowCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.rowColumn {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
 }
 
 .topMenu{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 60px;
+    position: fixed;
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    text-align: right;
+    width: 80%;
+
+}
+
+a{
+    text-decoration: none;
+    color: color: #fd5f00;;
+    display: inline-block;
 
 }
 
 .menuItem{
     padding: 10px;
+    border-radius: 8px;
+    transition: .3s;
+    background-color: white;
+    color: #fd5f00;
+
+}
+
+.menuItem:hover{
+    /*background-color: darkgrey;*/
+    color: black;
+    border-left: thick solid #fd5f00;
+    border-right: thick solid #fd5f00;
 
 }
 
 .banner{
 
+    /*background-image: url("images/blueSmoke.jpg");*/
+    /*background-size: cover;*/
+    /*z-index: 10;*/
+
     height: 200px;
-    background-color: #bfbfbf;
 
-
-    flex-direction: column;
+    padding: 5%;
 }
 
-.banner h1{
-    color: white;
-
+.greyBackground{
+    background-color: white;
 }
+
+.whiteBackground{
+    background-color: white;
+}
+
 
 .about{
     padding-top: 20px;
@@ -52,6 +132,27 @@
 
 }
 
+.contactForm{
+    flex-grow: 2;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
 .resume{
 
 }
+
+
+@keyframes navBarHover {
+    from {background-color: transparent}
+    to {background-color: black; color: white; text-decoration: underline}
+
+}
+
+
