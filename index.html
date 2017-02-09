@@ -39,7 +39,7 @@
                 </div>
 
                 <!--My Exposure Section-->
-                <div id="exposure" class="greyBackground">
+                <div id="exposure" class="whiteBackground">
 
                     <div class="text-center">
                         <h2>Exposure</h2>
@@ -100,15 +100,17 @@
                     <div class="rowCenter">
                         <div class="rowColumn">
                             <a href="https://github.com/admanaus">
-                                <img src="images/logoGitHub.png" title="GitHub logo" style="height: 200px">
+                                <img src="images/logoGitHub.png" title="GitHub logo">
                             </a>
-                            <p><strong>GitHub</strong></p>
-                            <p>See my latest commits</p>
+
+                                <p><strong>GitHub</strong></p>
+
+                                <p>See my latest commits</p>
                         </div>
 
                         <div class="rowColumn">
                             <a href="https://www.freecodecamp.com/admanaus">
-                                <img src="images/logoFreeCodeCamp.png"   title="Free Code Camp logo" style="height: 200px">
+                                <img src="images/logoFreeCodeCamp.png"   title="Free Code Camp logo">
                             </a>
                             <p><strong>Free Code Camp</strong></p>
                             <p>See what I've been practicing</p>
@@ -116,7 +118,7 @@
 
                         <div class="rowColumn">
                             <a href="https://www.codecademy.com/admanaus">
-                                <img src="images/logoCodeCademy.png"  title="CodeCademy logo" style="height: 200px">
+                                <img src="images/logoCodeCademy.png"  title="CodeCademy logo">
                             </a>
                             <p><strong>Code Cademy</strong></p>
                             <p>See what I've been learning</p>
@@ -126,15 +128,15 @@
                 <!--End Portfolio Section-->
 
                 <!--Contact Me Section-->
-                <div id="contact" class="greyBackground">
+                <div id="contact" class="whiteBackground">
                     <h2 class="text-center">CONTACT</h2>
 
-                    <div class="rowCenter">
+                    <div class="contactInfo rowCenter">
                         <div class="rowColumn text-left">
                             <p>Contact me and I'll get back to you.</p>
-                            <p><i class="material-icons">add_location</i> Orem, UT</p>
-                            <p><i class="material-icons">code</i> github.com/admanaus</p>
-                            <p><i class="material-icons">email</i> admanaus@gmail.com</p>
+                            <p><i class="material-icons orangeIcon">add_location</i> Orem, UT</p>
+                            <p><i class="material-icons orangeIcon">code</i><a href="www.github.com/admanaus"> github.com/admanaus</a></p>
+                            <p><i class="material-icons orangeIcon">email</i> admanaus@gmail.com</p>
                         </div>
 
                         <div class="rowColumn" style="flex-grow: 2">
@@ -143,23 +145,21 @@
                                     <input type="hidden" name="emailto" value="admanaus@gmail.com"/>
                                     <div class="rowCenter">
                                         <div class="rowColumn">
-                                            <input class="form-control" id="subject" name="emailsubject" placeholder="Subject" type="text" required>
-                                            <input class="form-control" id="email" name="emailheader" placeholder="Email" type="email" required>
+                                            <input  id="email" name="emailheader" placeholder="Your Email" type="email" required>
                                         </div>
-
-                                    </div>
-                                    <textarea class="form-control" id="content" name="emailcontent" placeholder="Content" rows="5"></textarea><br>
-                                    <div class="rowCenter">
                                         <div class="rowColumn">
-                                            <button class="menuItem" type="submit">Send</button>
-
-
+                                            <input id="subject" name="emailsubject" placeholder="Subject" type="text" required>
                                         </div>
+                                    </div>
+                                    <textarea id="content" name="emailcontent" placeholder="Content" rows="5"></textarea>
+                                    <div class="rowCenter">
+                                        <h2 class="menuItem" type="submit">Send</h2>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <!--End Contact Me Section-->
 
@@ -167,11 +167,15 @@
                 <div id="resume" class="text-center">
                     <h2 class="text-center">Download my resume as a PDF:</h2>
 
-                    <a href="images/SanitizedAdrienResume.pdf">
+                    <a href="images/SanitizedAdrienResume.pdf" title="Download PDF">
                         <h2 class="menuItem">DOWNLOAD</h2>
                     </a>
+                    <div class="rowCenter">
+                        <a href="#title" title="Top of page">
+                            <i class="material-icons orangeIcon">keyboard_arrow_up</i>
 
-
+                        </a>
+                    </div>
 
                 </div>
             </div>

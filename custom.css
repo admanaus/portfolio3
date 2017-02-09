@@ -22,6 +22,10 @@ h2{
     color: #fd5f00;
 }
 
+a {
+    color: #000;
+}
+
 .whiteBar{
     background-color: white;
     padding-top: 80px;
@@ -69,7 +73,7 @@ h2{
 
 a{
     text-decoration: none;
-    color: color: #fd5f00;;
+    color: color: #fd5f00;
     display: inline-block;
 
 }
@@ -85,7 +89,7 @@ a{
 
 .menuItem:hover{
     /*background-color: darkgrey;*/
-    color: black;
+    color: #498fff;
     border-left: thick solid #fd5f00;
     border-right: thick solid #fd5f00;
 
@@ -133,6 +137,10 @@ a{
     align-items: center;
 
 }
+
+.orangeIcon{
+    color: #fd5f00;
+}
 #portfolio{
 
 }
@@ -143,6 +151,28 @@ a{
 
 .contactForm{
     flex-grow: 2;
+
+}
+
+.contactInfo{
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .text-center{
@@ -153,10 +183,6 @@ a{
     text-align: left;
 }
 
-/*#resume a {*/
-    /*text-align: center;*/
-
-/*}*/
 
 
 @keyframes navBarHover {
